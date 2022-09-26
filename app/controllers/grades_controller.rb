@@ -1,6 +1,6 @@
 class GradesController < ApplicationController
     def grades
-        grades = Grades.all
+        grades = Grade.all
         render json: grades
     end
 end
